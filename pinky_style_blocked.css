@@ -804,6 +804,13 @@ visibility: hidden;
 height: 161px;
 }
 
+.locale-en .copyright:before {
+    content: 'Original theme by Renko ';
+}
+.locale-ru .copyright:before {
+    content: 'Оригинальная тема от Renko ';
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Ubuntu';
