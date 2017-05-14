@@ -533,12 +533,8 @@ margin-bottom: 14px;
 border-radius: 3px 3px 0 0;
 }
 
-.b-options-floated.mobile-desktop {
-margin: 0;
-background-color: rgba(255, 255, 255, 0.6);
-height: 28px;
-padding: 6px 5px 0 0;
-border-radius: 3px 3px 0 0;
+.b-options-floated {
+z-index: 2;
 }
 
 .l-content>.filter {
@@ -601,7 +597,7 @@ padding-top: 5px !important;
 .menu-slide-inner .l-content>.subheadline, .b-clubs-menu>.subheadline {
     top: 4px;
     position: relative;
-    z-index: 1000;
+    z-index: 1;
 }
 
 header.head, .block2>ul {padding: 5px;}
