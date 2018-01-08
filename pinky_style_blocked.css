@@ -796,10 +796,10 @@ visibility: hidden;
 height: 161px;
 }
 
-.locale-en .copyright:before {
+[data-locale="en"].copyright:before {
     content: 'Original theme by Renko ';
 }
-.locale-ru .copyright:before {
+[data-locale="ru"] .copyright:before {
     content: 'Оригинальная тема от Renko ';
 }
 
